@@ -1,0 +1,14 @@
+usr/bin
+usr/lib/gnome-builder
+usr/share/glib-2.0/schemas
+usr/share/gtksourceview-3.0/styles
+usr/share/icons/hicolor
+usr/share/icons/hicolor/512x512/apps
+usr/share/icons/hicolor/256x256/apps
+usr/share/applications
+usr/share/appdata
+usr/share/dbus-1/services
+usr/share/locale
+usr/lib/pkgconfig
+usr/share/gir-1.0
+usr/lib/gnome-builder/girepository-1.0
