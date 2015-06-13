@@ -1,0 +1,30 @@
+Source: gnome-builder
+Section: devel
+Priority: optional
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+XSBC-Original-Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Build-Depends: debhelper (>= 9),
+               gnome-pkg-tools,
+               autotools-dev,
+               dh-autoreconf,
+               pkg-config,
+               intltool,
+               libglib2.0-dev (>= 2.44.0),
+               libgtk-3-dev (>= 3.16.1),
+               libgtksourceview-3.0-dev (>= 3.16.1),
+               libgit2-glib-1.0-dev (>= 0.22.6),
+               libgjs-dev (>= 1.42.0),
+               python-gi-dev (>= 3.0.0),
+               libdevhelp-dev (>= 3.16.0)
+Standards-Version: 3.9.4
+Homepage: https://wiki.gnome.org/Apps/Builder
+Vcs-Bzr: https://code.launchpad.net/~jdub/gnome-builder/debian
+Vcs-Browser: http://bazaar.launchpad.net/~jdub/gnome-builder/debian/files
+
+Package: gnome-builder
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: Builder, an IDE for GNOME
+ Builder is a IDE for GNOME that is focused on bringing the power of our
+ platform to more developers than ever before.
